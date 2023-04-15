@@ -3,16 +3,13 @@ package ZadaniaObiektowe;
 public class Person {
     static int age;
 
-    public Person(int age){
-        Person.age = age;
+    public Person(int age){Person.age = age;
     }
 
-    public int getAge(){
-        return age;
+    public int getAge(){return age;
     }
 
-    public static void yearPases(){
-        Person.age += 1;
+    public static void yearPases(){Person.age += 1;
     }
 
     public String amIOld(){

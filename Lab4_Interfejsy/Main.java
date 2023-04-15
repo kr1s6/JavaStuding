@@ -8,21 +8,22 @@ public class Main {
         Car car = new Car(400);
         Bike bike = new Bike(30);
 
+        System.out.println("****Invoking****");
         invoke(car);
         invoke(bike);
         Measurable lambda = () -> 55;
         invoke(lambda);
 
 
+        System.out.println("****Lambda that sort week days****");
         var dni = new String[]{"Monday", "Tuesday", "Wednesday", "Thursday",
-                "Friday", "Satruday", "Sunday"};
+                "Friday", "Saturday", "Sunday"};
         Arrays.sort(dni, (a, b) -> a.length() - b.length());
         for(String i: dni){
             System.out.println(i);
         }
 
-
-
+        System.out.println("****Stream and lambda****");
        long counter = Stream.of("Kraków", "Gdynia",
                         "Warszawa", "Wrocław", "Poznań", "Katowice")
                 .filter(x -> x.length() == 6)
