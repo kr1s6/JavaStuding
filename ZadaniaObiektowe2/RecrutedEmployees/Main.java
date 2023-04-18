@@ -21,14 +21,14 @@ public class Main {
                     System.out.print("Do you want to hire Miner(1) or Doctor(2): ");
                     int y = in.nextInt();
                     System.out.print("Name: "); String name = inn.nextLine();
-                    System.out.print("Age: "); int age = in.nextInt();
+                    System.out.print("Age: "); int age = Integer.parseInt(inn.nextLine());
                     System.out.print("Town: "); String town = inn.nextLine();
                     System.out.print("Mail: "); String mail = inn.nextLine();
                     System.out.print("Tel_num: "); String tel = inn.nextLine();
                     switch (y) {
                         case 1 -> {
                             System.out.print("Strength: ");
-                            int Str = in.nextInt();
+                            int Str = Integer.parseInt(inn.nextLine());
                             employees.add(new Miner(name, age, town, mail, tel, Str));
                         }
                         case 2 -> {
@@ -50,5 +50,4 @@ public class Main {
                 }
             }
         }
-
     }

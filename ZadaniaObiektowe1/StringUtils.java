@@ -1,4 +1,4 @@
-package ZadaniaObiektowe;
+package ZadaniaObiektowe1;
 import java.util.Arrays;
 
 public class StringUtils {

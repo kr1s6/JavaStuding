@@ -53,7 +53,7 @@ public class Main {
 
         String nowa = "\nSiemanoKolano";
         String kolano = nowa.substring(nowa.length() - 6);
-        System.out.println(kolano);
+        System.out.println(kolano + "\n");
 
 //        Scanner in = new Scanner(System.in);
 //        System.out.println("Podaj imię: ");
@@ -66,8 +66,7 @@ public class Main {
 //        String username = cons.readLine("Username: ");
 //        char[] passwd = cons.readPassword("Password: ");
 
-        System.out.printf("Number %,.2f", 10000.0/3.0);
-        System.out.println();
+        System.out.printf("Number %,.2f" + "\n", 10000.0/3.0);
 
         System.out.println(LocalDate.now());
         System.out.println(new Date());

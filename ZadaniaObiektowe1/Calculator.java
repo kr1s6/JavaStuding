@@ -1,4 +1,4 @@
-package ZadaniaObiektowe;
+package ZadaniaObiektowe1;
 
 public class Calculator {
     static double PI = 3.14;

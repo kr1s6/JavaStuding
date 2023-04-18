@@ -1,6 +1,6 @@
 package Lab4_Interfejsy;
 
-import java.util.Arrays;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class Main {
@@ -30,7 +30,17 @@ public class Main {
                 .count();
 
         System.out.println(counter);
+
+        Emplyee[] staff = new Emplyee[3];
+        staff[0] = new Emplyee(3000, "Alex");
+        staff[1] = new Emplyee(5000, "Mark");
+        staff[2] = new Emplyee(2000, "Markkkk");
+        Arrays.sort(staff);
+        for(Emplyee i: staff){
+            System.out.println(i.toString());
+        }
     }
+
 
     static void invoke(Measurable measurable){
         System.out.println(measurable.getWeight());
