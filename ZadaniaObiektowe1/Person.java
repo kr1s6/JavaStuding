@@ -1,7 +1,7 @@
-package ZadaniaObiektowe;
+package ZadaniaObiektowe1;
 
 public class Person {
-    static int age;
+    private static int age;
 
     public Person(int age){Person.age = age;
     }

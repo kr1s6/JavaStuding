@@ -1,10 +1,10 @@
-package ZadaniaObiektowe;
+package ZadaniaObiektowe1;
 
 public class Human {
 
-    int age;
-    int height;
-    String name;
+    private int age;
+    private int height;
+    private String name;
 
     public Human(int age, String name, int height){
         this.age = age;
