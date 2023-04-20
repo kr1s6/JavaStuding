@@ -2,10 +2,10 @@ package Lab4_Interfejsy;
 
 
 public class Emplyee implements Comparable<Emplyee> {
-    private double salary;
+    private final double salary;
     private static int nextId = 1;
     private final int id;
-    private  String name;
+    private final String name;
 
     {
         this.id = nextId;
